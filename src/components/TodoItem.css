@@ -1,0 +1,55 @@
+.todos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color:#e8bd7d;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .todos:hover {
+    background-color: #c1d76f;
+  }
+  
+  .check-box {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .text-box {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .edit-button,
+  .delete-button {
+    background-color: #BEC6A0;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover,
+  .delete-button:hover {
+    background-color: #616551;
+  }
+  
+  .edit-button:disabled,
+  .delete-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .button-icon {
+    margin-right: 5px;
+  }
+  
+  

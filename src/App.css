@@ -1,0 +1,83 @@
+/* App.css or TodoApp.css (your main CSS file) */
+
+.main-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #606676;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #FEF3E2;
+}
+
+.todo-form-container {
+  margin-bottom: 20px;
+}
+
+.todos-container {
+  display: grid;
+  gap: 10px;
+}
+
+/* Optional: Responsive layout */
+@media (max-width: 768px) {
+  .main-container {
+    padding: 10px;
+  }
+}
+
+/* TodoItem.css (if using separate CSS module) */
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.todo-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.check-box {
+  margin-right: 10px;
+}
+
+.text-box {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.edit-button,
+.delete-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #45a049;
+}
+
+.edit-button:disabled,
+.delete-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

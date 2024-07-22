@@ -1,0 +1,42 @@
+/* CSS */
+
+.flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-input {
+    flex: 1; /* Take remaining space */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .todo-input:focus {
+    outline: none;
+    border-color: #FFDFD6; /* Green when focused */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Light green shadow */
+  }
+  
+  .todo-add-button {
+    background-color: #BEC6A0; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Padding inside button */
+    margin-left: 10px; /* Space between input and button */
+    font-size: 16px; /* Font size */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+  }
+  
+  .todo-add-button:hover {
+    background-color: #d4e694; /* Darker green on hover */
+  }
+  
+  .todo-add-button:disabled {
+    background-color: #ccc; /* Light gray when disabled */
+    cursor: not-allowed; /* Not allowed cursor */
+  }
+  
