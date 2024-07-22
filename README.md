@@ -1,6 +1,6 @@
 # Todo Application
 
-![Todo App Screenshot](./todo-app-screenshot.png)
+
 
 Deployed Link: [Your Deployed App Link](https://rakeshchoudhary29.github.io/TodoApplication/)
 
@@ -49,5 +49,5 @@ To run the application locally:
 - JavaScript (ES6+)
 - CSS (or any styling framework you used)
 
-## Folder Structure
+
 
